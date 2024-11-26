@@ -1,0 +1,125 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  font-family: "Source Code Pro", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+}
+
+#logo_site {
+  width: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #2a9d8f;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#imgCocktail {
+  position: relative;
+  text-align: center;
+}
+
+#photo_mojito {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#badge_container {
+  position: absolute;
+  top: 10px;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+#badge{
+  padding-top: 10px;
+  width:80px;
+}
+#badge:hover {
+  width: 40px;
+  
+  transform: perspective(30px) rotateX(10deg) translateZ(10px) translate(-10px, 5px); 
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #2a9d8f;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#Avertissement {
+  background-color: #e63946;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#Avertissement a {
+  color: #ffde7d;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  margin-top: 40px;
+}
+*{
+  scroll-behavior: smooth;
+}
+.fa-instagram{
+  color:red;
+  font-size: 50px;
+}
